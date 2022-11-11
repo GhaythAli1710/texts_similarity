@@ -1,0 +1,16 @@
+###download the Glove model 
+!wget http://nlp.stanford.edu/data/glove.6B.zip
+
+import nltk
+import numpy as np
+import re
+from nltk.corpus import stopwords
+import pandas as pd
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize
+import scipy
+import seaborn as sns
+import matplotlib.pyplot as plt
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
